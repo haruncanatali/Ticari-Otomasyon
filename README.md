@@ -14,6 +14,7 @@ Merhaba bu projede C# WinForm ticari otomasyon sistemi geliştirilmiştir. Proje
  6. **Görsel Analiz**(DevExpress.ChartControl)
  7. **Ninject**
  8. **Microsoft SQL Server**
+ 9. **Stored Procedure**
  <hr>
  
  ### Projeden Görüntüler
