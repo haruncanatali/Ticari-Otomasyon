@@ -1,0 +1,9 @@
+F:\MuratHocaAsp\TicariOtomasyon\TicariOtomasyon\TicaretOtomasyonu.Entities\bin\Debug\TicaretOtomasyonu.Entities.dll
+F:\MuratHocaAsp\TicariOtomasyon\TicariOtomasyon\TicaretOtomasyonu.Entities\bin\Debug\TicaretOtomasyonu.Entities.pdb
+F:\MuratHocaAsp\TicariOtomasyon\TicariOtomasyon\TicaretOtomasyonu.Entities\bin\Debug\Ninject.dll
+F:\MuratHocaAsp\TicariOtomasyon\TicariOtomasyon\TicaretOtomasyonu.Entities\bin\Debug\Ninject.xml
+F:\MuratHocaAsp\TicariOtomasyon\TicariOtomasyon\TicaretOtomasyonu.Entities\obj\Debug\TicariOtomasyon.Entities.csprojAssemblyReference.cache
+F:\MuratHocaAsp\TicariOtomasyon\TicariOtomasyon\TicaretOtomasyonu.Entities\obj\Debug\TicariOtomasyon.Entities.csproj.CoreCompileInputs.cache
+F:\MuratHocaAsp\TicariOtomasyon\TicariOtomasyon\TicaretOtomasyonu.Entities\obj\Debug\TicariOtomasyon.Entities.csproj.CopyComplete
+F:\MuratHocaAsp\TicariOtomasyon\TicariOtomasyon\TicaretOtomasyonu.Entities\obj\Debug\TicaretOtomasyonu.Entities.dll
+F:\MuratHocaAsp\TicariOtomasyon\TicariOtomasyon\TicaretOtomasyonu.Entities\obj\Debug\TicaretOtomasyonu.Entities.pdb

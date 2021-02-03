@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicariOtomasyon.DesktopUI", "TicariOtomasyon.DesktopUI\TicariOtomasyon.DesktopUI.csproj", "{040343A7-8916-4F8C-9039-400E8C82C5DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicariOtomasyon.DataAccess", "TicariOtomasyon.DataAccess\TicariOtomasyon.DataAccess.csproj", "{2DE68083-ACC9-492E-87BA-25A0C666F16D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicariOtomasyon.Entities", "TicaretOtomasyonu.Entities\TicariOtomasyon.Entities.csproj", "{03BE296F-81A4-47B8-8E88-960F569E1345}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicariOtomasyon.Business", "TicaretOtomasyonu.Business\TicariOtomasyon.Business.csproj", "{E876CDDA-1B71-4D2B-A136-07AD31D40F72}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{040343A7-8916-4F8C-9039-400E8C82C5DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{040343A7-8916-4F8C-9039-400E8C82C5DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{040343A7-8916-4F8C-9039-400E8C82C5DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{040343A7-8916-4F8C-9039-400E8C82C5DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DE68083-ACC9-492E-87BA-25A0C666F16D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DE68083-ACC9-492E-87BA-25A0C666F16D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DE68083-ACC9-492E-87BA-25A0C666F16D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DE68083-ACC9-492E-87BA-25A0C666F16D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03BE296F-81A4-47B8-8E88-960F569E1345}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03BE296F-81A4-47B8-8E88-960F569E1345}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03BE296F-81A4-47B8-8E88-960F569E1345}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03BE296F-81A4-47B8-8E88-960F569E1345}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E876CDDA-1B71-4D2B-A136-07AD31D40F72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E876CDDA-1B71-4D2B-A136-07AD31D40F72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E876CDDA-1B71-4D2B-A136-07AD31D40F72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E876CDDA-1B71-4D2B-A136-07AD31D40F72}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5B16B0C1-BF3F-4359-B906-F899423182D6}
+	EndGlobalSection
+EndGlobal

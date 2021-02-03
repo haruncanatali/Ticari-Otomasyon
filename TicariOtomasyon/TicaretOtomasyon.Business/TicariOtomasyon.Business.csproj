@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E876CDDA-1B71-4D2B-A136-07AD31D40F72}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TicaretOtomasyonu.Business</RootNamespace>
+    <AssemblyName>TicaretOtomasyonu.Business</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ninject, Version=3.3.4.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
+      <HintPath>..\packages\Ninject.3.3.4\lib\net45\Ninject.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Abstract\IAdminService.cs" />
+    <Compile Include="Abstract\IBankaService.cs" />
+    <Compile Include="Abstract\IFaturaDetayService.cs" />
+    <Compile Include="Abstract\IFaturaService.cs" />
+    <Compile Include="Abstract\IFirmaService.cs" />
+    <Compile Include="Abstract\IGiderService.cs" />
+    <Compile Include="Abstract\IIlceService.cs" />
+    <Compile Include="Abstract\IIlService.cs" />
+    <Compile Include="Abstract\IMusteriService.cs" />
+    <Compile Include="Abstract\INotlarService.cs" />
+    <Compile Include="Abstract\IOzelKodService.cs" />
+    <Compile Include="Abstract\IPersonelService.cs" />
+    <Compile Include="Abstract\IServiceRepository.cs" />
+    <Compile Include="Abstract\IUrunService.cs" />
+    <Compile Include="Concrete\AdminManager.cs" />
+    <Compile Include="Concrete\BankaManager.cs" />
+    <Compile Include="Concrete\FaturaDetayManager.cs" />
+    <Compile Include="Concrete\FaturaManager.cs" />
+    <Compile Include="Concrete\FirmaManager.cs" />
+    <Compile Include="Concrete\GiderManager.cs" />
+    <Compile Include="Concrete\IlceManager.cs" />
+    <Compile Include="Concrete\IlManager.cs" />
+    <Compile Include="Concrete\MusteriManager.cs" />
+    <Compile Include="Concrete\NotlarManager.cs" />
+    <Compile Include="Concrete\OzelKodManager.cs" />
+    <Compile Include="Concrete\PersonelManager.cs" />
+    <Compile Include="Concrete\UrunManager.cs" />
+    <Compile Include="Ninject\BusinessModule.cs" />
+    <Compile Include="Ninject\InstanceFactory.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TicaretOtomasyonu.Entities\TicariOtomasyon.Entities.csproj">
+      <Project>{03BE296F-81A4-47B8-8E88-960F569E1345}</Project>
+      <Name>TicariOtomasyon.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TicariOtomasyon.DataAccess\TicariOtomasyon.DataAccess.csproj">
+      <Project>{2DE68083-ACC9-492E-87BA-25A0C666F16D}</Project>
+      <Name>TicariOtomasyon.DataAccess</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
