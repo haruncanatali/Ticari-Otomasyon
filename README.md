@@ -6,7 +6,7 @@ Merhaba bu projede C# WinForm ticari otomasyon sistemi geliştirilmiştir. Proje
 			  TicariOtomasyon.Business
 			  TicariOtomasyon.DataAccess
 			  TicariOtomasyon.Entities
-			  TicariOtomasyon.DesktopUI
+			  TicariOtomasyon.DesktopUI (Presentation Layer)
 
  - **AdoNet**
  - **Nesne Yönelimli Programlama**
